@@ -5,8 +5,6 @@ import ImageContainer from '../components/ImageContainer';
 function Header () {
   return (
     <>
-    <ImageContainer
-    />
     <HeaderSection
     />
     </>
