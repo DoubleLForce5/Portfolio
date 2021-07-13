@@ -1,0 +1,33 @@
+#nav {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+#site-title {
+ 
+
+}
+
+#nav-items {
+  display: flex;
+}
+
+ul li {
+  padding: 0 15px;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 695px) {
+  #nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #site-title {
+    padding-bottom: 12px;
+  }
+}
