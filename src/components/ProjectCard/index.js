@@ -1,14 +1,23 @@
 import React from 'react';
-import ProjectImageContainer from '../ProjectImageContainer';
 import './style.css';
 
-function ProjectCard (props) {
+function ProjectCard (
+  img, 
+  github, 
+  url, 
+  title, 
+  tech, 
+  description) {
     return (
     <section className='project-card'>
-      <ProjectImageContainer
-      />
       <div className='project-card-content'>
-        {props.children}
+      <div>
+        <img src={img} alt={title}/>
+      </div>
+      <div className='project-links'>Link</div>
+      <h3 className='project-title'>{title}</h3>
+      <ul className='project-topics'>topics</ul>
+      <p className='project-description'>description</p>
       </div>
     </section>
     )
