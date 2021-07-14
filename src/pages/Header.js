@@ -3,10 +3,14 @@ import HeaderSection from '../components/HeaderSection';
 
 function Header () {
   return (
+    
     <HeaderSection>
-      <h3>Hello, I'm Olivia! <span role='img' aria-label='Hand waving hello:  Medium Skin Tone'>&#128075;&#127997;</span></h3>
+
+      <h3><span className='highlight'>Hello, I'm Olivia! <span role='img' aria-label='Hand waving hello:  Medium Skin Tone'>&#128075;&#127997;</span></span></h3>
+
       <p>A multidisciplinary Full Stack Developer currently based in Dallas, Texas. I build user-friendly, engaging, and responsive applications.
       <span role='img' aria-label='Woman Technologist: Medium Skin Tone Emoji'>&#128105;&#127997;&#8205;&#128187;</span></p>
+
       <p>Keep scrolling to check out some of my most recent work.<span role='img' aria-label='Sparkles Emoji'>&#10024;</span></p>
 
     </HeaderSection>

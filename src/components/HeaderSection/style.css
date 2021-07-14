@@ -3,6 +3,16 @@ section {
   flex-flow: row nowrap;
   padding-top: 30px;
   justify-content: center;
+  width: 100%;
+  align-content: stretch;
+}
+
+#header-content {
+  align-self: center;
+}
+
+#header-content .highlight {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 20%, #8ecae6 130%);
 }
 
 @media only screen and (max-width: 513px) {
