@@ -2,12 +2,13 @@ import React from 'react';
 import './style.css';
 
 function ProjectCard (
-  img, 
+{  img, 
   github, 
   url, 
   title, 
   tech, 
-  description) {
+  description}) {
+    console.log(title)
     return (
     <section className='project-card'>
       <div className='project-card-content'>

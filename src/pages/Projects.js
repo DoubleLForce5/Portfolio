@@ -54,7 +54,7 @@ function Projects () {
     </SectionTitle>
       
     <ProjectCard>
-      {projects.map(renderProjectCards)}
+    {projects.map((project) => renderProjectCards(project))}
     </ProjectCard>
     </>
   )
