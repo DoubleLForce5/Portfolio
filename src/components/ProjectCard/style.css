@@ -1,3 +1,32 @@
 .project-card {
   background-color: #25aed0;
+  height: auto;
+  margin: 20px 0;
+  display: flex;
 }
+
+.project-img {
+  width: 200px;
+  height: auto;
+}
+
+.project-card-content {
+  padding: 15px;
+}
+
+.project-links a i {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .project-card {
+    padding: 30px 20px
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .project-card {
+    flex-direction: column;
+  }
+}
+  
