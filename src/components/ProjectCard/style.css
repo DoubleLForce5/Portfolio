@@ -1,8 +1,9 @@
 .project-card {
-  background-color: #25aed0;
+  background: hsl(199, 64%, 73%);
   height: auto;
   margin: 20px 0;
   display: flex;
+  border-radius: 10px;
 }
 
 .project-img {
@@ -18,19 +19,42 @@
   font-size: 20px;
 }
 
+.project-links a i:hover {
+  color: #fff;
+}
+
+.github-link {
+  margin-left: 3px;
+}
+
+.project-card-content {
+  padding-bottom: 0px;
+}
+
 .project-title {
   font-size: 2rem;
+  margin-top: 5px;
 }
 
 .project-title-highlight {
   background: linear-gradient(180deg, rgba(255,255,255,0) 40%, rgb(255, 255, 255) 47%);
 }
 
-/* @media only screen and (max-width: 500px) {
-  .project-card {
-    padding: 30px 20px
-  }
-} */
+.tech-featured {
+  font-weight: bold;
+}
+
+.project-topics {
+  line-height: 1.2;
+  display: block;
+  margin: 15px 0;
+}
+
+.project-description {
+  line-height: 1.2;
+  display: block;
+  margin: 15px 0;
+}
 
 @media only screen and (max-width: 720px) {
   .project-card {
@@ -43,6 +67,10 @@
    align-self: center;
  }
 
+ .project-img {
+  width: 350px;
+  height: auto;
+}  
 
 }
   

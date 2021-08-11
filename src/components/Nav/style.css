@@ -5,20 +5,33 @@
 }
 
 #site-title {
- 
-
+ font-family: 'Karla', sans-serif;
+ font-size: 1.19em;
+ font-weight: 700;
+ color: black;
+ align-items: center;
 }
 
 #nav-items {
   display: flex;
+  align-items: center;
 }
 
 ul li {
   padding: 0 15px;
+  font-family: 'Lato', sans-serif;
 }
 
 ul li a {
   text-decoration: none;
+}
+
+a:visited {
+  color: inherit
+}
+
+#nav-items a:hover {
+  color: #8ecae6;
 }
 
 @media only screen and (max-width: 695px) {

@@ -4,7 +4,7 @@ import HeaderSection from "../components/HeaderSection";
 function Header() {
   return (
     <HeaderSection>
-      <h3>
+      <h3 className='header-title'>
         <span className="highlight">
           Hello, I'm Olivia!{" "}
           <span role="img" aria-label="Hand waving hello:  Medium Skin Tone">
@@ -13,7 +13,7 @@ function Header() {
         </span>
       </h3>
 
-      <p>
+      <p className='header-text'>
         A multidisciplinary Full Stack Developer currently based in Dallas,
         Texas. I build user-friendly, engaging, and responsive applications.
         <span
@@ -24,7 +24,7 @@ function Header() {
         </span>
       </p>
 
-      <p>
+      <p className='header-text'>
         Keep scrolling to check out some of my most recent work.
         <span role="img" aria-label="Sparkles Emoji">
           &#10024;
