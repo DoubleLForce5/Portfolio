@@ -12,20 +12,27 @@ const projects = [
     description: "Video streaming application that allows users to query for content using the Google Youtube API and add that content to individual and customizable playlists.",
   },
   {
-    img: "assets/CMS-blog.png",
-    github: "https://github.com/DoubleLForce5/CMS_Tech_Blog",
-    url: "https://aqueous-gorge-22961.herokuapp.com/",
-    title: "CMS Blog",
-    tech: "Mysql, Node.js, Dotenv, Nodemon, Sequelize, Express, Handlebars, Javascript",
-    description:
-      "CMS-style blog site where individuals can publish posts, articles, thoughts, and opinions.",
+    img: "assets/google-books-search.png",
+    github: "https://github.com/DoubleLForce5/Google_Book_Search",
+    url: "https://google-books-search-app1.herokuapp.com/",
+    title: "Google Books Search",
+    tech: "Google Books API, React Router Dom, Javascript, Node.js, Bootstrap, Nodemon, Dotenv, MongoDB, Mongoose, Heroku, React, Axios, HTML, CSS",
+    description: "This application utilizes the Google Books API to allow users the ability to search for and save books.",
+  },
+  {
+    img: "assets/employee-directory.png",
+    github: "https://github.com/DoubleLForce5/Employee_Directory",
+    url: "https://doublelforce5.github.io/Employee_Directory/",
+    title: "Employee Directory",
+    tech: "Random User API, Javascript, Bootstrap, Gh pages, Date-fns, React, Axios, HTML, CSS",
+    description: "The employee directory allows its user to view, filter, and sort non-sensitive data about other employees"
   },
   {
     img: "assets/tech-blog.png",
     github: "https://github.com/DoubleLForce5/CMS_Tech_Blog",
     url: "https://cmstechblog.herokuapp.com/",
     title: "CMS Tech Blog",
-    tech: "Mysql, Node.js, Dotenv, Nodemon, Sequelize, Express, Handlebars, Javascript, CSS",
+    tech: "Mysql, Node.js, Dotenv, Nodemon, Sequelize, Express, Handlebars, Javascript, CSS, HTML",
     description: "CMS-style blog site where individuals can publish posts, articles, thoughts, and opinions."
   },
 ];
