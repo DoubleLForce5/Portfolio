@@ -5,7 +5,7 @@ function ProjectCard(props) {
   console.log("props", props);
   const { img, github, url, title, tech, description } = props.project;
   return (
-    <section className="project-card">
+    <div className="project-card">
       <div className="project-img-container">
         <img className="project-img" src={img} alt={title} />
       </div>
@@ -22,7 +22,7 @@ function ProjectCard(props) {
         <p className="project-description">{description}</p>
         <ul className="project-topics"><span className='tech-featured'>Technology Featured:</span> {tech}</ul>
       </div>
-    </section>
+    </div>
   );
 }
 

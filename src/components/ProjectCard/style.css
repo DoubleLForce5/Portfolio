@@ -1,13 +1,20 @@
 .project-card {
   background: hsl(199, 64%, 73%);
   height: auto;
+  width: 350px;
   margin: 20px 0;
   display: flex;
+  flex-flow: column wrap;
   border-radius: 10px;
 }
 
+.project-img-container {
+  display: flex;
+  align-items: center;
+}
+
 .project-img {
-  width: 200px;
+  width: 260px;
   height: auto;
 }
 
@@ -61,6 +68,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 30px 20px;
+    width: auto;
   }
 
  .project-img-container {
