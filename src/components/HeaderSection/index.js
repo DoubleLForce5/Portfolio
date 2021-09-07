@@ -4,7 +4,7 @@ import './style.css'
 
 function HeaderSection(props) {
   return (
-    <section>
+    <section id='header-section'>
       <div>
         <ImageContainer id='img' src='assets/laptop-working-night.svg' alt='Illustration of a girl working on a laptop in a big city'/>
       </div>

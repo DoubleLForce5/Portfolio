@@ -7,13 +7,13 @@ function Nav() {
       <nav id='nav'>
         <h3 id='site-title'>Olivia Lopez</h3>
           <ul id='nav-items'>
-            <li>
+            <li className='nav-item'>
               <a href="/projects">Projects</a>
             </li>
-            <li>
+            <li className='nav-item'>
               <a href="/about">About</a>
             </li>
-            <li>
+            <li className='nav-item'>
               <a href="/contact">Contact</a>
             </li>
           </ul>

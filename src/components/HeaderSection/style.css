@@ -1,4 +1,4 @@
-section {
+#header-section {
   display: flex;
   flex-flow: row nowrap;
   padding-top: 30px;
@@ -26,8 +26,8 @@ section {
 
 
 
-@media only screen and (max-width: 716px) {
-  section {
+@media only screen and (max-width: 806px) {
+  #header-section {
     padding-top: 0px;
     display: flex;
     flex-flow: column wrap;

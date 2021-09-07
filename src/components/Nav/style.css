@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-ul li {
+.nav-item {
   padding: 0 15px;
   font-family: 'Lato', sans-serif;
 }

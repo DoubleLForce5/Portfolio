@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
+import ProjectCardsContainer from "../components/ProjectCardsContainer";
 import SectionTitle from "../components/SectionTitle";
 
 const projects = [
@@ -49,7 +50,9 @@ function Projects() {
         <em>Projects</em>
       </SectionTitle>
 
+      <ProjectCardsContainer>
       {projects.map((project) => renderProjectCards(project))}
+      </ProjectCardsContainer>
     </>
   );
 }

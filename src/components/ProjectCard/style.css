@@ -1,21 +1,24 @@
 .project-card {
   background: hsl(199, 64%, 73%);
   height: auto;
-  width: 350px;
-  margin: 20px 0;
+  width: 454px;
+  margin: 20px 15px;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   border-radius: 10px;
 }
 
 .project-img-container {
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 15px
 }
 
 .project-img {
-  width: 260px;
+  width: auto;
   height: auto;
+  margin: 10px;
 }
 
 .project-card-content {
@@ -44,7 +47,11 @@
 }
 
 .project-title-highlight {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 40%, rgb(255, 255, 255) 47%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 40%,
+    rgb(255, 255, 255) 47%
+  );
 }
 
 .tech-featured {
@@ -55,15 +62,83 @@
   line-height: 1.2;
   display: block;
   margin: 15px 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .project-description {
   line-height: 1.2;
   display: block;
   margin: 15px 0;
+  font-family: 'Lato', sans-serif;
 }
 
-@media only screen and (max-width: 716px) {
+/* @media only screen and (max-width: 410px) {
+  .project-card {
+    width: 447px;
+  }
+
+  .project-img-container {
+    margin-top: 5px;
+  }
+
+  .project-img {
+    width: 227px;
+  }
+
+  .project-description {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .project-topics {
+    font-size: 14px;
+    margin-top: 0px;
+  }
+
+
+} */
+
+
+
+/* @media only screen and (min-width: 816px) and (max-width: 930px) {
+  .project-card {
+    width: 276px;
+  }
+} */
+
+@media only screen and (min-width: 806px) and (max-width: 930px) {
+  .project-card {
+    width: 272px;
+  }
+}
+
+@media only screen and (min-width: 931px) and (max-width: 1015px) {
+  .project-card {
+    width: 319px;
+  }
+}
+
+@media only screen and (min-width: 1016px) and (max-width: 1146px) {
+  .project-card {
+    width: 351px;
+  }
+}
+
+@media only screen and (min-width: 1147px) and (max-width: 1302px) {
+  .project-card {
+    width: 400px;
+  }
+}
+
+/* @media only screen and (min-width: 1147px) and (max-width: 1302px) {
+  .project-card {
+    width: 400px;
+  }
+} */
+
+
+
+/* @media only screen and (max-width: 716px) {
   .project-card {
     flex-direction: column;
     justify-content: center;
@@ -80,5 +155,4 @@
   height: auto;
 }  
 
-}
-  
+} */
