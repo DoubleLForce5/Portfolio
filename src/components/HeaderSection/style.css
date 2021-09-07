@@ -10,11 +10,11 @@
 #header-content {
   align-self: center;
   margin-left: 15px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #header-content .highlight {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 20%, #8ecae6 130%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 20%, #8ecae6 130%);
   font-weight: 950;
 }
 
@@ -23,8 +23,6 @@
   margin: 12px 0;
   display: block;
 }
-
-
 
 @media only screen and (max-width: 806px) {
   #header-section {
@@ -40,6 +38,6 @@
 
 @media only screen and (max-width: 800px) and (min-width: 716px) {
   .header-text {
-    font-size: .90em;
+    font-size: 0.9em;
   }
 }

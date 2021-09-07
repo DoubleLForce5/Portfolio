@@ -1,0 +1,16 @@
+#about-section {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+}
+
+/* #about-img {
+  border-radius: 10px;
+} */
+
+/* #about-content {
+
+} */
