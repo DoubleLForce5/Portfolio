@@ -1,19 +1,20 @@
-import React from 'react';
-import ImageContainer from '../ImageContainer';
-import './style.css'
+import React from "react";
+import ImageContainer from "../ImageContainer";
+import "./style.css";
 
 function HeaderSection(props) {
   return (
-    <section id='header-section'>
+    <section id="header-section">
       <div>
-        <ImageContainer id='img' src='assets/laptop-working-night.svg' alt='Illustration of a girl working on a laptop in a big city'/>
+        <ImageContainer
+          src="assets/laptop-working-night.svg"
+          alt="Illustration of a girl working on a laptop in a big city"
+          id="header-image"
+        />
       </div>
-      <div id='header-content'>
-        {props.children}
-      </div>
+      <div id="header-content">{props.children}</div>
     </section>
-
-  )
+  );
 }
 
 export default HeaderSection;

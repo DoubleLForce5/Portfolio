@@ -7,7 +7,7 @@ function ProjectCard(props) {
   return (
     <div className="project-card">
       <div className="project-img-container">
-        <img className="project-img" src={img} alt={title} />
+        <img className="project-img" id="projects-img" src={img} alt={title} />
       </div>
       <div className="project-card-content">
         <div className="project-links">
