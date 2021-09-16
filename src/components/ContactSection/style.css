@@ -1,26 +1,35 @@
+#contact-content {
+  text-align: center;
+}
+
 .contact-text {
   line-height: 1.2;
   display: block;
-  text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
   font-family: "Lato", sans-serif;
 }
 
+.email-tag {
+  margin-bottom: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.email {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+a.email:hover {
+  color: #8ecae6;
+}
+
 .contact-links {
-  text-align: center;
   font-size: 35px;
 }
 
 .contact-icon {
   margin: 10px;
-  color: #8ecae6;
-}
-
-.email-icon {
-  color: #000;
-}
-
-.email-icon i:hover {
   color: #8ecae6;
 }
 

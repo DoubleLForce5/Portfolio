@@ -13,6 +13,13 @@ function Contact() {
         <p className="contact-text">
           Something peak your interest? Get in touch with me and let's talk.
         </p>
+        <p className='email-tag'><a
+            className="email"
+            href="mailto:lopez.olivia17@outlook.com"
+            target="_blank"
+            aria-label="link to my email"
+            rel="noopener noreferrer"
+          >lopez.olivia17@outlook.com</a></p>
         <div className="contact-links">
          <a
             className="linkedin-icon contact-icon"
@@ -35,13 +42,6 @@ function Contact() {
             aria-label="link to my resume"
             rel="noopener noreferrer"
           ><i class="bi bi-file-earmark-person-fill"></i></a>
-          <a
-            className="email-icon contact-icon"
-            href="mailto:lopez.olivia17@outlook.com"
-            target="_blank"
-            aria-label="link to my email"
-            rel="noopener noreferrer"
-          ><i class="bi bi-envelope-open"></i></a>
         </div>
       </ContactSection>
     </>
