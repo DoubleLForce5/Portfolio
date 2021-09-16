@@ -9,7 +9,7 @@ function HeaderSection(props) {
         <ImageContainer
           src="assets/laptop-working-night.svg"
           alt="Illustration of a girl working on a laptop in a big city"
-          id="header-image"
+          id="header-img"
         />
       </div>
       <div id="header-content">{props.children}</div>

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 function ProjectCard(props) {
-  console.log("props", props);
+  // console.log("props", props);
   const { img, github, url, title, tech, description } = props.project;
   return (
     <div className="project-card">

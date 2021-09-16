@@ -23,11 +23,13 @@
 }
 
 .project-card-content {
-  padding: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
-.project-links a i {
-  font-size: 20px;
+.project-links {
+  font-size: 25px;
 }
 
 .project-links a i:hover {

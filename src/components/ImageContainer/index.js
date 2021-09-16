@@ -4,7 +4,7 @@ import './style.css';
 function ImageContainer (props) {
   return (
     <div id='img-container'>
-      <img id="header-img" src={props.src} alt={props.alt}/>
+      <img id={props.id} src={props.src} alt={props.alt}/>
     </div>
   )
 };

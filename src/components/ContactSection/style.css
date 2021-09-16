@@ -1,0 +1,37 @@
+.contact-text {
+  line-height: 1.2;
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Lato", sans-serif;
+}
+
+.contact-links {
+  text-align: center;
+  font-size: 35px;
+}
+
+.contact-icon {
+  margin: 10px;
+  color: #8ecae6;
+}
+
+.email-icon {
+  color: #000;
+}
+
+.email-icon i:hover {
+  color: #8ecae6;
+}
+
+.resume-icon i:hover {
+  color: #8ecae6;
+}
+
+.github-icon i:hover {
+  color: #8ecae6;
+}
+
+.linkedin-icon i:hover {
+  color: #8ecae6;
+}
