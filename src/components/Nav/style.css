@@ -12,10 +12,6 @@
  align-items: center;
 }
 
-a#site-title {
-  text-decoration: none;
-}
-
 #nav-items {
   display: flex;
   align-items: center;
@@ -31,7 +27,7 @@ ul li a {
 }
 
 a:visited {
-  color: inherit
+  color: #000;
 }
 
 #nav-items a:hover {

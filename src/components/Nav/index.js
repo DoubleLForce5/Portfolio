@@ -5,7 +5,7 @@ function Nav() {
   return (
     <div>
       <nav id='nav'>
-      <h1><a id="site-title" href="#home">Olivia Lopez</a></h1>
+      <h1 id="site-title">Olivia Lopez</h1>
           <ul id='nav-items'>
             <li className='nav-item'><a href="#projects">Projects</a>
             </li>

@@ -7,7 +7,7 @@ function Footer() {
       <FooterSection>
         <div className="footer-content">
         <p className="footer-text">
-          Made with{" "}
+          Site made with{" "}
           <span role="img" aria-label="red heart emoji">
             &#9825;
           </span>{" "}
