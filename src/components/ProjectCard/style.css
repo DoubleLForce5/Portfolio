@@ -32,6 +32,14 @@
   font-size: 25px;
 }
 
+a.url-link {
+  color: #000;
+}
+
+a.github-link {
+  color: #000;
+}
+
 .project-links a i:hover {
   color: #fff;
 }
