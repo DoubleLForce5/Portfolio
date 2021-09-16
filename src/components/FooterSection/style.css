@@ -1,8 +1,18 @@
 .footer-content {
-  margin: 20px;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-text {
   text-align: center;
   font-family: "Lato", sans-serif;
+  font-size: .3em;
+}
+
+@media only screen and (max-width: 1076px) {
+  .footer-content {
+    flex-flow: column wrap;
+    align-items: center;
+  }
 }
