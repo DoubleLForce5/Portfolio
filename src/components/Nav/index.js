@@ -5,19 +5,19 @@ function Nav() {
   return (
     <div>
       <nav id='nav'>
-        <h3 id='site-title'>Olivia Lopez</h3>
+      <h1><a id="site-title" href="#home">Olivia Lopez</a></h1>
           <ul id='nav-items'>
-            <li className='nav-item'>
-              <a href="/projects">Projects</a>
+            <li className='nav-item'><a href="#projects">Projects</a>
             </li>
             <li className='nav-item'>
-              <a href="/about">About</a>
+              <a href="#about">About</a>
             </li>
             <li className='nav-item'>
-              <a href="/contact">Resume</a>
+              <a href="assets/olivia-lopez-resume.pdf"
+            target="_blank">Resume</a>
             </li>
             <li className='nav-item'>
-              <a href="/contact">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
       </nav>

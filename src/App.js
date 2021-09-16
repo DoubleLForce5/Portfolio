@@ -7,6 +7,7 @@ import Skills from "./pages/Skills";
 import About from './pages/About'
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
+import ScrollButton from "./components/ScrollButton";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Contact />
       <Footer />
+      <ScrollButton />
   </Wrapper>
   )
 }

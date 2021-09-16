@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <SectionTitle>
-        <em>About Me</em>
+        <em id="about">About Me</em>
       </SectionTitle>
 
       <AboutSection>

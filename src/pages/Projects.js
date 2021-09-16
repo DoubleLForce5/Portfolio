@@ -47,7 +47,8 @@ function Projects() {
   return (
     <>
       <SectionTitle>
-        <em>Projects</em>
+        <em id="projects">Projects</em>
+
       </SectionTitle>
 
       <ProjectCardsContainer>

@@ -6,7 +6,7 @@ function Contact() {
   return (
     <>
       <SectionTitle>
-        <em>Let's Connect</em>
+        <em id="contact">Let's Connect</em>
       </SectionTitle>
 
       <ContactSection>

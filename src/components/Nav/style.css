@@ -12,6 +12,10 @@
  align-items: center;
 }
 
+a#site-title {
+  text-decoration: none;
+}
+
 #nav-items {
   display: flex;
   align-items: center;
