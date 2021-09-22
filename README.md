@@ -11,6 +11,7 @@ https://doublelforce5.github.io/Portfolio/
 - CSS
 - HTML
 - React
+- iconscout
 - JavaScript
 - Bootstrap Icons
 
