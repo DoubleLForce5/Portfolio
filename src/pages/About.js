@@ -24,7 +24,7 @@ function About() {
         </p>
         <p className="about-me-text">
           I have an aptitude for HTML, CSS, JavaScript, and Node.js with
-          strengths in problem-solving, meeting deadlines, and teamwork. With
+          strengths in problem-solving, meeting deadlines, and collaboration. With
           each project, my goal is to engage my audience and provide an
           impactful user experience.
         </p>

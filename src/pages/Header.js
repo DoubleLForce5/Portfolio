@@ -14,7 +14,7 @@ function Header() {
       </h3>
 
       <p className='header-text'>
-        A multidisciplinary Full Stack Developer currently based in Dallas,
+        A multidisciplinary <strong>Full Stack Developer</strong> currently based in Dallas,
         Texas. I build user-friendly, engaging, and responsive applications.
         <span
           role="img"

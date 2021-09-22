@@ -23,7 +23,7 @@ function ScrollButton() {
   window.addEventListener('scroll', toggleVisible)
 
   return (
-    <a className="scroll-button"><i class="bi bi-arrow-up-circle" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}></i></a>
+    <a className="scroll-button" href=''><i class="bi bi-arrow-up-circle" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}></i></a>
   )
 }
 

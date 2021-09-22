@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Wrapper from "./components/Wrapper";
 import Nav from "./components/Nav";
 import Header from '../src/pages/Header';
@@ -16,7 +16,7 @@ function App() {
       <Nav />
       <Header />
       <Projects />
-      {/* <Skills /> */}
+      <Skills />
       <About />
       <Contact />
       <Footer />
