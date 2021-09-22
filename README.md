@@ -9,7 +9,7 @@ https://doublelforce5.github.io/Portfolio/
 
 ## 🛠️ Tech 
 - CSS
-- HMTL
+- HTML
 - React
 - JavaScript
 - Bootstrap Icons
