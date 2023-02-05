@@ -27,7 +27,7 @@ function Contact() {
         <div className="contact-links">
           <a
             className="linkedin-icon contact-icon"
-            href="https://www.linkedin.com/in/olivialopez17/"
+            href=//"https://www.linkedin.com/in/olivialopez17/"
             target="_blank"
             aria-label="link to my linkedIn"
             rel="noopener noreferrer"
@@ -45,7 +45,7 @@ function Contact() {
           </a>
           <a
             className="resume-icon contact-icon"
-            href="assets/olivia-lopez-resume.pdf"
+            href=//"assets/olivia-lopez-resume.pdf"
             target="_blank"
             aria-label="link to my resume"
             rel="noopener noreferrer"
